@@ -1,0 +1,31 @@
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+
+alerting:
+  alertmanagers:
+    - static_configs:
+        - targets:
+          - alertmanager:9093
+
+rule_files:
+  - "rules/*.yml"
+
+scrape_configs:
+  - job_name: "Prometheus"
+    static_configs:
+      - targets: ["localhost:9090"]
+
+  - job_name: "RabbitMQ_Exporter"
+    static_configs:
+      - targets: ["localhost:9419"]
+  
+  - job_name: "Prometheus-MSTeams"
+    static_configs:
+      - targets: ["localhost:2000"]
+
+  - job_name: "Prometheus-Net"
+    static_configs:
+      - targets: ["localhost:1234"]
+    
+  
