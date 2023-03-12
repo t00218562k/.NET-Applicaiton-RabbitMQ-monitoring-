@@ -1,0 +1,4 @@
+GET http://andmin:admin@localhost:3000/api/v1/provisioning/alert-rules	HTTP/1.1
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer eyJrIjoiSDZGWlJ1TnZlcUJjMXBHQnVjY2ZNRlpybXVSN0VmM3EiLCJuIjoiYWRtaW4iLCJpZCI6MX0=

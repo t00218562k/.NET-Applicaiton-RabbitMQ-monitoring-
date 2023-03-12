@@ -1,0 +1,4 @@
+POST http://admin:admin@localhost:3000/api/admin/provisioning/alerting/reload
+
+Authorization: Bearer eyJrIjoiSDZGWlJ1TnZlcUJjMXBHQnVjY2ZNRlpybXVSN0VmM3EiLCJuIjoiYWRtaW4iLCJpZCI6MX0=
+

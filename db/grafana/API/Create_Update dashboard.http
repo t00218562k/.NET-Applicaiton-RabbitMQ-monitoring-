@@ -1,0 +1,20 @@
+POST http://localhost:3000/api/dashboards/db HTTP/1.1
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer eyJrIjoiekxEM0RHUUsweFJaWmFzODRBaldYNGlKTXl1ZzVJWHYiLCJuIjoiYWRtaW4iLCJpZCI6MX0=
+
+{
+  "dashboard": {
+    "id": null,
+    "title": "Production Overview",
+    "tags": [ "templated" ],
+    "timezone": "browser",
+    "rows": [
+      {
+      }
+    ],
+    "schemaVersion": 6,
+    "version": 0
+  },
+  "overwrite": false
+}

@@ -1,9 +1,3 @@
-# rabbitmq monitoring
-
-#gpullen
-#amulligan
-#Ibrahim Khalid
-#Joseph Diggins
 
 ## Docker image for a .NET application using RabbitMQ
 

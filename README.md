@@ -26,3 +26,7 @@ Overall, this project provides a robust and scalable messaging system that can b
 - Grafana
 - Prometheus-net
 
+# Tutorial
+1. You can run rabbitmq, Pormetheus and Grafana using docker-compose file located in the misc/docker folder or you can run them on your local machine. If are running on the local machine and want RabbitMQ metrics you need to use the RabbitMQ exporter found in the db/prometheus/exporter. 
+2. You can run the application by running the .sln file in the ide folder or by using dotner run command in the terminal.
+3. there are files in the misc folder that explain how to use terform and alerts in Grafana.

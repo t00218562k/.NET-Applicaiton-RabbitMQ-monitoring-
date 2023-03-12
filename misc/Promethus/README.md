@@ -1,10 +1,3 @@
-# rabbitmq monitoring
-
-#gpullen
-#amulligan
-#Ibrahim Khalid
-#Joseph Diggins
-
 
 ## Prometheus
 Prometheus is an open-source monitoring and alerting system. It is used to collect metrics from various systems and services, and then allows users to query and visualize that data.
