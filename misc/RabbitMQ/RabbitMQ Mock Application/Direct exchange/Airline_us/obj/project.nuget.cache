@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "BduraBIUu9mAh6a+I8AE+Ssg8WWfzTNpczyXyUaNJ0LDazwr2vKokHks2godxdGJvaAQDD03dN9NZY86o9zkCg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ikhalid\\.ssh\\rabbitmq-monitoring\\misc\\RabbitMQ\\RabbitMQ Mock Application\\Direct exchange\\Airline_us\\Consumer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ikhalid\\.nuget\\packages\\rabbitmq.client\\6.4.0\\rabbitmq.client.6.4.0.nupkg.sha512",
+    "C:\\Users\\ikhalid\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\ikhalid\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

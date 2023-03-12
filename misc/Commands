@@ -1,0 +1,76 @@
+# close all rabbitmq ports on firewall
+rabbitmqctl stop_app
+
+# close all docker containers
+docker stop $(docker ps -a -q)
+
+# close all rabbits network
+docker network rm rabbits
+
+# Create a docker rabbitmq localhost
+docker run -d --hostname rabbit-1 --name rabbit-1 -p 8071:15672 rabbitmq:3.8-management
+
+# Settting up node
+    #linux
+    docker network create rabbits
+    #windows
+    docker network create --driver nat rabbits
+
+# Replace RABBITMQ_ERLANG_COOKIE with cookie on device found in file erlang.cookie
+docker run -d --rm --net rabbits --hostname rabbit-1 --name rabbit-1 -p 8071:15672 -e RABBITMQ_ERLANG_COOKIE=NTMBJRXAZPDYBNQSRWPS rabbitmq:3.8-management
+docker run -d --rm --net rabbits --hostname rabbit-2 --name rabbit-2 -p 8072:15672 -e RABBITMQ_ERLANG_COOKIE=NTMBJRXAZPDYBNQSRWPS rabbitmq:3.8-management
+docker run -d --rm --net rabbits --hostname rabbit-3 --name rabbit-3 -p 8073:15672 -e RABBITMQ_ERLANG_COOKIE=NTMBJRXAZPDYBNQSRWPS rabbitmq:3.8-management
+
+docker exec -it rabbit-1 rabbitmqctl cluster_status
+
+# Over view of nodes
+docker ps
+
+# Join node
+
+docker exec -it rabbit-2 rabbitmqctl stop_app
+docker exec -it rabbit-2 rabbitmqctl reset
+docker exec -it rabbit-2 rabbitmqctl join_cluster rabbit@rabbit-1
+docker exec -it rabbit-2 rabbitmqctl start_app
+docker exec -it rabbit-2 rabbitmqctl cluster_status
+
+docker exec -it rabbit-3 rabbitmqctl stop_app
+docker exec -it rabbit-3 rabbitmqctl reset
+docker exec -it rabbit-3 rabbitmqctl join_cluster rabbit@rabbit-1
+docker exec -it rabbit-3 rabbitmqctl start_app
+docker exec -it rabbit-3 rabbitmqctl cluster_status 
+
+# Enable federation plugin
+
+docker exec -it rabbit-1 rabbitmq-plugins enable rabbitmq_federation
+docker exec -it rabbit-2 rabbitmq-plugins enable rabbitmq_federation
+docker exec -it rabbit-3 rabbitmq-plugins enable rabbitmq_federation
+
+# Mirroing
+
+docker exec -it rabbit-1 bash
+rabbitmqctl set_policy ha-fed \
+    ".*" '{"federation-upstream-set":"all", "ha-mode":"nodes", "ha-params":["rabbit@rabbit-1","rabbit@rabbit-2","rabbit@rabbit-3"]}' \
+    --priority 1 \
+    --apply-to queues
+ 
+
+# build 
+dotnet publish -c Release -o published
+
+# deploy 
+dotnet published\producer.dll
+
+docker build -t producer .
+
+docker image
+
+docker run -it --rm --net rabbits -e RABBIT_HOST=rabbit-1 -e RABBIT_PORT=5672 -e RABBIT_USERNAME=guest -e RABBIT_PASSWORD=guest producer
+
+# promethus command inside promethus folder
+prometheus.exe --config.file=prometheus.yml
+
+docker service create --replicas 1 --name my-prometheus
+    --mount type=bind,source=%CD%/prometheus.yml,destination=/etc/prometheus/prometheus.yml
+    --publish published=9090,target=9090,protocol=tcp
+    prom/prometheus

@@ -1,0 +1,17 @@
+C:\Users\IBI\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\bin\Release\net7.0\Consumer.exe
+C:\Users\IBI\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\bin\Release\net7.0\Consumer.deps.json
+C:\Users\IBI\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\bin\Release\net7.0\Consumer.runtimeconfig.json
+C:\Users\IBI\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\bin\Release\net7.0\Consumer.dll
+C:\Users\IBI\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\bin\Release\net7.0\Consumer.pdb
+C:\Users\IBI\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\bin\Release\net7.0\RabbitMQ.Client.dll
+C:\Users\IBI\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\obj\Release\net7.0\Consumer.csproj.AssemblyReference.cache
+C:\Users\IBI\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\obj\Release\net7.0\Consumer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IBI\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\obj\Release\net7.0\Consumer.AssemblyInfoInputs.cache
+C:\Users\IBI\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\obj\Release\net7.0\Consumer.AssemblyInfo.cs
+C:\Users\IBI\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\obj\Release\net7.0\Consumer.csproj.CoreCompileInputs.cache
+C:\Users\IBI\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\obj\Release\net7.0\Consumer.csproj.CopyComplete
+C:\Users\IBI\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\obj\Release\net7.0\Consumer.dll
+C:\Users\IBI\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\obj\Release\net7.0\refint\Consumer.dll
+C:\Users\IBI\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\obj\Release\net7.0\Consumer.pdb
+C:\Users\IBI\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\obj\Release\net7.0\Consumer.genruntimeconfig.cache
+C:\Users\IBI\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\obj\Release\net7.0\ref\Consumer.dll

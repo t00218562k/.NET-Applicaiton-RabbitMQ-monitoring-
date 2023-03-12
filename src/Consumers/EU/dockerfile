@@ -1,0 +1,15 @@
+FROM mcr.microsoft.com/dotnet/runtime:7.0
+
+COPY published .
+
+ENTRYPOINT ["dotnet","Program.dll" ]
+
+
+# Build the docker image
+#docker build -t producer .
+
+# Run the docker image
+#docker run -d -p 5000:80 --name producer producer
+
+# Check the docker image
+#docker ps

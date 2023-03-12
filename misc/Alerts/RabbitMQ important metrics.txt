@@ -1,0 +1,61 @@
+
+Memory High: A node is consuming 90% of allocated memory. ***
+
+Connections: A sharp increase in the number of connections may be a warning of a traffic increase.**
+
+Channels: A sharp increase in the number of channels may be a warning of a traffic increase. *
+
+FileDescriptors Usage: A node’s File Descriptor usage is reaching its maximum value. *
+
+Unroutable Messages: The cluster was not able to deliver a message to a destination. *
+
+File descriptors used as sockets: Count of file descriptors used as network sockets by RabbitMQ processes *
+
+Node Not Distributed: A node lost communication with the cluster.
+
+Node Down: A node is down.
+
+Messages published in: Messages published to an exchange (as a count and a rate per second)
+
+Messages published out: Messages that have left an exchange (as a count and a rate per second)
+
+Data rates: Number of octets sent/received within a TCP connection per second
+
+Queue depth: Count of all messages in the queue	
+
+Messages unacknowledged: Count of messages a queue has delivered without receiving acknowledgment from a consumer
+
+Messages ready: Count of messages available to consumer	
+
+Message rates: Messages that move in or out of a queue per second, whether unacknowledged, delivered, acknowledged, or redelivered
+
+Messages persistent: Count of messages written to disk	
+
+Message bytes persistent: Sum in bytes of messages written to disk	
+
+Message bytes RAM: Sum in bytes of messages stored in memory	
+
+Number of consumers: Count of consumers for a given queue	
+
+Consumer utilization: Proportion of time that the queue can deliver messages to consumers	
+
+Memory High Watermark: A threshold of 1 indicates that the memory high watermark is reached, blocking message publishing.
+
+Disk High Watermark: A threshold of 1 indicates that the disk high watermark is reached, blocking message publishing.
+
+Unacked Messages: If the number of unacknowledged messages is too large, messages may be accumulated.
+
+Erlang Processes: A sharp increase in the number of processes may be a warning of a traffic increase.
+
+
+
+Referances: 
+https://grafana.com/blog/2021/06/01/monitor-and-alert-on-essential-rabbitmq-cluster-metrics-with-the-new-grafana-cloud-integration/
+
+https://www.datadoghq.com/blog/rabbitmq-monitoring/
+
+https://docs.vmware.com/en/vRealize-Operations/8.10/com.vmware.vcom.config.doc/GUID-6CE5089D-7FBD-45D2-B75D-18DC5F020CAD.html
+
+https://support.huaweicloud.com/intl/en-us/usermanual-rabbitmq/rabbitmq-ug-180524001.html
+
+List of all metircs - https://github.com/rabbitmq/rabbitmq-prometheus/blob/master/metrics.md

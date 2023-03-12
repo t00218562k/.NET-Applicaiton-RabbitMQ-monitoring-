@@ -1,0 +1,110 @@
+Health Check:
+	curl http://localhost:9090/-/healthy
+
+Readiness Check:
+	curl http://localhost:9090/-/ready
+
+
+INSTANT QUERIES
+The following endpoint evaluates an instant query at a single point in time:
+	GET /api/v1/query
+	POST /api/v1/query
+
+The following example evaluates the expression up a given time:
+	curl http://localhost:9090/api/v1/query?query=up^&time=2023-02-23T15:27:11Z
+	PromQL - up @ 1677166031
+
+
+RANGE QUERIES
+The following endpoint evaluates an expression query over a range of time:
+	GET /api/v1/query_range
+	POST /api/v1/query_range
+
+The following example evaluates the expression up over a 30-second range with a query resolution of 15 seconds:
+	curl http://localhost:9090/api/v1/query_range?query=up^&start=2023-02-23T15:27:11Z^&end=2023-02-23T15:27:41Z^&step=15s
+	PromQL - up @ 1677157550 offset 5m
+		 up @ 1677162950 [45s:15s]
+
+LABELS
+The following endpoint returns a list of label names:
+	curl http://localhost:9090/api/v1/labels
+
+This example queries for all label values for the jobs label:
+	curl http://localhost:9090/api/v1/label/job/values
+
+
+TARGETS
+The following endpoint returns an overview of the current state of the Prometheus target discovery:
+	curl http://localhost:9090/api/v1/targets
+
+The state query parameter allows the caller to filter by active or dropped:
+	curl http://localhost:9090/api/v1/targets?state=active
+
+
+RULES
+The /rules API endpoint returns a list of alerting and recording rules that are currently loaded:
+	GET /api/v1/rules
+
+Command Example:
+	curl http://localhost:9090/api/v1/rules
+
+
+TSDB Stats
+The following endpoint returns various cardinality statistics about the Prometheus TSDB:
+	GET /api/v1/status/tsdb
+
+	headStats: This provides the following data about the head block of the TSDB:
+		numSeries: The number of series.
+		chunkCount: The number of chunks.
+		minTime: The current minimum timestamp in milliseconds.
+		maxTime: The current maximum timestamp in milliseconds.
+	seriesCountByMetricName: This will provide a list of metrics names and their series count.
+	labelValueCountByLabelName: This will provide a list of the label names and their value count.
+	memoryInBytesByLabelName This will provide a list of the label names and memory used in bytes. Memory usage is calculated by adding the length of all values for a given label name.
+	seriesCountByLabelPair This will provide a list of label value pairs and their series count.
+
+Command Example:
+	curl http://localhost:9090/api/v1/status/tsdb
+
+
+
+
+
+
+
+
+
+
+
+TSDB Admin APIs
+
+Snapshot:
+Snapshot creates a snapshot of all current data into snapshots/<datetime>-<rand> under the TSDB's data directory and returns the directory as response.
+	POST /api/v1/admin/tsdb/snapshot
+	PUT /api/v1/admin/tsdb/snapshot
+
+Command:
+	curl -XPOST http://localhost:9090/api/v1/admin/tsdb/snapshot
+
+Delete Series:
+DeleteSeries deletes data for a selection of series in a time range. The actual data still exists on disk and is cleaned up in future compactions or can be explicitly cleaned up by hitting the Clean Tombstones endpoint.
+	POST /api/v1/admin/tsdb/delete_series
+	PUT /api/v1/admin/tsdb/delete_series
+
+
+PromQL query to find the most costly metrics - topk(10, count by (__name__)({__name__=~".+"}))
+Command Example:
+	curl -X POST -g http://localhost:9090/api/v1/admin/tsdb/delete_series?match[]={job=\"Grafana\"}
+	curl -X POST -g http://localhost:9090/api/v1/admin/tsdb/delete_series?match[]=up
+	curl -X POST -g http://localhost:9090/api/v1/admin/tsdb/delete_series?match[]={__name__=~".+"}
+
+Note that the above API calls don’t delete data immediately.
+
+The actual data still exists on disk and will be cleaned up in future compaction.
+
+To determine when to remove old data, use --storage.tsdb.retention option e.g. --storage.tsdb.retention='365d' (by default, Prometheus keeps data for 15 days).
+
+To completely remove the data deleted by delete_series send clean_tombstones API call:
+	curl -X POST -g http://localhost:9090/api/v1/admin/tsdb/clean_tombstones
+
+

@@ -1,0 +1,139 @@
+C:\Users\ikhalid\Desktop\RabbitMQ Mock Application\Consumer\obj\Debug\net7.0\Consumer.csproj.AssemblyReference.cache
+C:\Users\ikhalid\Desktop\RabbitMQ Mock Application\Consumer\obj\Debug\net7.0\Consumer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ikhalid\Desktop\RabbitMQ Mock Application\Consumer\obj\Debug\net7.0\Consumer.AssemblyInfoInputs.cache
+C:\Users\ikhalid\Desktop\RabbitMQ Mock Application\Consumer\obj\Debug\net7.0\Consumer.AssemblyInfo.cs
+C:\Users\ikhalid\Desktop\RabbitMQ Mock Application\Consumer\obj\Debug\net7.0\Consumer.csproj.CoreCompileInputs.cache
+C:\Users\ikhalid\Desktop\RabbitMQ Mock Application\Consumer\bin\Debug\net7.0\Consumer.exe
+C:\Users\ikhalid\Desktop\RabbitMQ Mock Application\Consumer\bin\Debug\net7.0\Consumer.deps.json
+C:\Users\ikhalid\Desktop\RabbitMQ Mock Application\Consumer\bin\Debug\net7.0\Consumer.runtimeconfig.json
+C:\Users\ikhalid\Desktop\RabbitMQ Mock Application\Consumer\bin\Debug\net7.0\Consumer.dll
+C:\Users\ikhalid\Desktop\RabbitMQ Mock Application\Consumer\bin\Debug\net7.0\Consumer.pdb
+C:\Users\ikhalid\Desktop\RabbitMQ Mock Application\Consumer\bin\Debug\net7.0\RabbitMQ.Client.dll
+C:\Users\ikhalid\Desktop\RabbitMQ Mock Application\Consumer\obj\Debug\net7.0\Consumer.csproj.CopyComplete
+C:\Users\ikhalid\Desktop\RabbitMQ Mock Application\Consumer\obj\Debug\net7.0\Consumer.dll
+C:\Users\ikhalid\Desktop\RabbitMQ Mock Application\Consumer\obj\Debug\net7.0\refint\Consumer.dll
+C:\Users\ikhalid\Desktop\RabbitMQ Mock Application\Consumer\obj\Debug\net7.0\Consumer.pdb
+C:\Users\ikhalid\Desktop\RabbitMQ Mock Application\Consumer\obj\Debug\net7.0\Consumer.genruntimeconfig.cache
+C:\Users\ikhalid\Desktop\RabbitMQ Mock Application\Consumer\obj\Debug\net7.0\ref\Consumer.dll
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\misc\RabbitMQ\RabbitMQ Mock Application\Direct exchange\Airline_us\bin\Debug\net7.0\Consumer.exe
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\misc\RabbitMQ\RabbitMQ Mock Application\Direct exchange\Airline_us\bin\Debug\net7.0\Consumer.deps.json
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\misc\RabbitMQ\RabbitMQ Mock Application\Direct exchange\Airline_us\bin\Debug\net7.0\Consumer.runtimeconfig.json
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\misc\RabbitMQ\RabbitMQ Mock Application\Direct exchange\Airline_us\bin\Debug\net7.0\Consumer.dll
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\misc\RabbitMQ\RabbitMQ Mock Application\Direct exchange\Airline_us\bin\Debug\net7.0\Consumer.pdb
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\misc\RabbitMQ\RabbitMQ Mock Application\Direct exchange\Airline_us\bin\Debug\net7.0\RabbitMQ.Client.dll
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\misc\RabbitMQ\RabbitMQ Mock Application\Direct exchange\Airline_us\obj\Debug\net7.0\Consumer.csproj.AssemblyReference.cache
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\misc\RabbitMQ\RabbitMQ Mock Application\Direct exchange\Airline_us\obj\Debug\net7.0\Consumer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\misc\RabbitMQ\RabbitMQ Mock Application\Direct exchange\Airline_us\obj\Debug\net7.0\Consumer.AssemblyInfoInputs.cache
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\misc\RabbitMQ\RabbitMQ Mock Application\Direct exchange\Airline_us\obj\Debug\net7.0\Consumer.AssemblyInfo.cs
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\misc\RabbitMQ\RabbitMQ Mock Application\Direct exchange\Airline_us\obj\Debug\net7.0\Consumer.csproj.CoreCompileInputs.cache
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\misc\RabbitMQ\RabbitMQ Mock Application\Direct exchange\Airline_us\obj\Debug\net7.0\Consumer.csproj.CopyComplete
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\misc\RabbitMQ\RabbitMQ Mock Application\Direct exchange\Airline_us\obj\Debug\net7.0\Consumer.dll
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\misc\RabbitMQ\RabbitMQ Mock Application\Direct exchange\Airline_us\obj\Debug\net7.0\refint\Consumer.dll
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\misc\RabbitMQ\RabbitMQ Mock Application\Direct exchange\Airline_us\obj\Debug\net7.0\Consumer.pdb
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\misc\RabbitMQ\RabbitMQ Mock Application\Direct exchange\Airline_us\obj\Debug\net7.0\Consumer.genruntimeconfig.cache
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\misc\RabbitMQ\RabbitMQ Mock Application\Direct exchange\Airline_us\obj\Debug\net7.0\ref\Consumer.dll
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\misc\RabbitMQ\RabbitMQ Mock Application\Topics\Airline_US\bin\Debug\net7.0\Consumer.exe
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\misc\RabbitMQ\RabbitMQ Mock Application\Topics\Airline_US\bin\Debug\net7.0\Consumer.deps.json
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\misc\RabbitMQ\RabbitMQ Mock Application\Topics\Airline_US\bin\Debug\net7.0\Consumer.runtimeconfig.json
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\misc\RabbitMQ\RabbitMQ Mock Application\Topics\Airline_US\bin\Debug\net7.0\Consumer.dll
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\misc\RabbitMQ\RabbitMQ Mock Application\Topics\Airline_US\bin\Debug\net7.0\Consumer.pdb
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\misc\RabbitMQ\RabbitMQ Mock Application\Topics\Airline_US\bin\Debug\net7.0\RabbitMQ.Client.dll
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\misc\RabbitMQ\RabbitMQ Mock Application\Topics\Airline_US\obj\Debug\net7.0\Consumer.csproj.AssemblyReference.cache
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\misc\RabbitMQ\RabbitMQ Mock Application\Topics\Airline_US\obj\Debug\net7.0\Consumer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\misc\RabbitMQ\RabbitMQ Mock Application\Topics\Airline_US\obj\Debug\net7.0\Consumer.AssemblyInfoInputs.cache
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\misc\RabbitMQ\RabbitMQ Mock Application\Topics\Airline_US\obj\Debug\net7.0\Consumer.AssemblyInfo.cs
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\misc\RabbitMQ\RabbitMQ Mock Application\Topics\Airline_US\obj\Debug\net7.0\Consumer.csproj.CoreCompileInputs.cache
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\misc\RabbitMQ\RabbitMQ Mock Application\Topics\Airline_US\obj\Debug\net7.0\Consumer.csproj.CopyComplete
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\misc\RabbitMQ\RabbitMQ Mock Application\Topics\Airline_US\obj\Debug\net7.0\Consumer.dll
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\misc\RabbitMQ\RabbitMQ Mock Application\Topics\Airline_US\obj\Debug\net7.0\refint\Consumer.dll
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\misc\RabbitMQ\RabbitMQ Mock Application\Topics\Airline_US\obj\Debug\net7.0\Consumer.pdb
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\misc\RabbitMQ\RabbitMQ Mock Application\Topics\Airline_US\obj\Debug\net7.0\Consumer.genruntimeconfig.cache
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\misc\RabbitMQ\RabbitMQ Mock Application\Topics\Airline_US\obj\Debug\net7.0\ref\Consumer.dll
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\src\mydir\Topics\AUS\bin\Debug\net7.0\Consumer.exe
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\src\mydir\Topics\AUS\bin\Debug\net7.0\Consumer.deps.json
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\src\mydir\Topics\AUS\bin\Debug\net7.0\Consumer.runtimeconfig.json
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\src\mydir\Topics\AUS\bin\Debug\net7.0\Consumer.dll
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\src\mydir\Topics\AUS\bin\Debug\net7.0\Consumer.pdb
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\src\mydir\Topics\AUS\bin\Debug\net7.0\RabbitMQ.Client.dll
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\src\mydir\Topics\AUS\obj\Debug\net7.0\Consumer.csproj.AssemblyReference.cache
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\src\mydir\Topics\AUS\obj\Debug\net7.0\Consumer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\src\mydir\Topics\AUS\obj\Debug\net7.0\Consumer.AssemblyInfoInputs.cache
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\src\mydir\Topics\AUS\obj\Debug\net7.0\Consumer.AssemblyInfo.cs
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\src\mydir\Topics\AUS\obj\Debug\net7.0\Consumer.csproj.CoreCompileInputs.cache
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\src\mydir\Topics\AUS\obj\Debug\net7.0\Consumer.csproj.CopyComplete
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\src\mydir\Topics\AUS\obj\Debug\net7.0\Consumer.dll
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\src\mydir\Topics\AUS\obj\Debug\net7.0\refint\Consumer.dll
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\src\mydir\Topics\AUS\obj\Debug\net7.0\Consumer.pdb
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\src\mydir\Topics\AUS\obj\Debug\net7.0\Consumer.genruntimeconfig.cache
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\src\mydir\Topics\AUS\obj\Debug\net7.0\ref\Consumer.dll
+D:\rabbitmq-monitoring\src\mydir\Topics\AUS\bin\Debug\net7.0\Consumer.exe
+D:\rabbitmq-monitoring\src\mydir\Topics\AUS\bin\Debug\net7.0\Consumer.deps.json
+D:\rabbitmq-monitoring\src\mydir\Topics\AUS\bin\Debug\net7.0\Consumer.runtimeconfig.json
+D:\rabbitmq-monitoring\src\mydir\Topics\AUS\bin\Debug\net7.0\Consumer.dll
+D:\rabbitmq-monitoring\src\mydir\Topics\AUS\bin\Debug\net7.0\Consumer.pdb
+D:\rabbitmq-monitoring\src\mydir\Topics\AUS\bin\Debug\net7.0\RabbitMQ.Client.dll
+D:\rabbitmq-monitoring\src\mydir\Topics\AUS\obj\Debug\net7.0\Consumer.csproj.AssemblyReference.cache
+D:\rabbitmq-monitoring\src\mydir\Topics\AUS\obj\Debug\net7.0\Consumer.GeneratedMSBuildEditorConfig.editorconfig
+D:\rabbitmq-monitoring\src\mydir\Topics\AUS\obj\Debug\net7.0\Consumer.AssemblyInfoInputs.cache
+D:\rabbitmq-monitoring\src\mydir\Topics\AUS\obj\Debug\net7.0\Consumer.AssemblyInfo.cs
+D:\rabbitmq-monitoring\src\mydir\Topics\AUS\obj\Debug\net7.0\Consumer.csproj.CoreCompileInputs.cache
+D:\rabbitmq-monitoring\src\mydir\Topics\AUS\obj\Debug\net7.0\Consumer.csproj.CopyComplete
+D:\rabbitmq-monitoring\src\mydir\Topics\AUS\obj\Debug\net7.0\Consumer.dll
+D:\rabbitmq-monitoring\src\mydir\Topics\AUS\obj\Debug\net7.0\refint\Consumer.dll
+D:\rabbitmq-monitoring\src\mydir\Topics\AUS\obj\Debug\net7.0\Consumer.pdb
+D:\rabbitmq-monitoring\src\mydir\Topics\AUS\obj\Debug\net7.0\Consumer.genruntimeconfig.cache
+D:\rabbitmq-monitoring\src\mydir\Topics\AUS\obj\Debug\net7.0\ref\Consumer.dll
+C:\Users\IBI\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\bin\Debug\net7.0\Consumer.exe
+C:\Users\IBI\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\bin\Debug\net7.0\Consumer.deps.json
+C:\Users\IBI\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\bin\Debug\net7.0\Consumer.runtimeconfig.json
+C:\Users\IBI\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\bin\Debug\net7.0\Consumer.dll
+C:\Users\IBI\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\bin\Debug\net7.0\Consumer.pdb
+C:\Users\IBI\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\bin\Debug\net7.0\RabbitMQ.Client.dll
+C:\Users\IBI\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\obj\Debug\net7.0\Consumer.csproj.AssemblyReference.cache
+C:\Users\IBI\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\obj\Debug\net7.0\Consumer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IBI\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\obj\Debug\net7.0\Consumer.AssemblyInfoInputs.cache
+C:\Users\IBI\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\obj\Debug\net7.0\Consumer.AssemblyInfo.cs
+C:\Users\IBI\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\obj\Debug\net7.0\Consumer.csproj.CoreCompileInputs.cache
+C:\Users\IBI\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\obj\Debug\net7.0\Consumer.csproj.CopyComplete
+C:\Users\IBI\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\obj\Debug\net7.0\Consumer.dll
+C:\Users\IBI\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\obj\Debug\net7.0\refint\Consumer.dll
+C:\Users\IBI\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\obj\Debug\net7.0\Consumer.pdb
+C:\Users\IBI\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\obj\Debug\net7.0\Consumer.genruntimeconfig.cache
+C:\Users\IBI\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\obj\Debug\net7.0\ref\Consumer.dll
+<<<<<<< HEAD
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\bin\Debug\net7.0\Consumer.exe
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\bin\Debug\net7.0\Consumer.deps.json
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\bin\Debug\net7.0\Consumer.runtimeconfig.json
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\bin\Debug\net7.0\Consumer.dll
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\bin\Debug\net7.0\Consumer.pdb
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\bin\Debug\net7.0\RabbitMQ.Client.dll
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\obj\Debug\net7.0\Consumer.csproj.AssemblyReference.cache
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\obj\Debug\net7.0\Consumer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\obj\Debug\net7.0\Consumer.AssemblyInfoInputs.cache
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\obj\Debug\net7.0\Consumer.AssemblyInfo.cs
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\obj\Debug\net7.0\Consumer.csproj.CoreCompileInputs.cache
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\obj\Debug\net7.0\Consumer.csproj.CopyComplete
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\obj\Debug\net7.0\Consumer.dll
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\obj\Debug\net7.0\refint\Consumer.dll
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\obj\Debug\net7.0\Consumer.pdb
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\obj\Debug\net7.0\Consumer.genruntimeconfig.cache
+C:\Users\ikhalid\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\obj\Debug\net7.0\ref\Consumer.dll
+=======
+D:\rabbitmq-monitoring\src\mydir\Consumers\AUS\bin\Debug\net7.0\Consumer.exe
+D:\rabbitmq-monitoring\src\mydir\Consumers\AUS\bin\Debug\net7.0\Consumer.deps.json
+D:\rabbitmq-monitoring\src\mydir\Consumers\AUS\bin\Debug\net7.0\Consumer.runtimeconfig.json
+D:\rabbitmq-monitoring\src\mydir\Consumers\AUS\bin\Debug\net7.0\Consumer.dll
+D:\rabbitmq-monitoring\src\mydir\Consumers\AUS\bin\Debug\net7.0\Consumer.pdb
+D:\rabbitmq-monitoring\src\mydir\Consumers\AUS\bin\Debug\net7.0\RabbitMQ.Client.dll
+D:\rabbitmq-monitoring\src\mydir\Consumers\AUS\obj\Debug\net7.0\Consumer.csproj.AssemblyReference.cache
+D:\rabbitmq-monitoring\src\mydir\Consumers\AUS\obj\Debug\net7.0\Consumer.GeneratedMSBuildEditorConfig.editorconfig
+D:\rabbitmq-monitoring\src\mydir\Consumers\AUS\obj\Debug\net7.0\Consumer.AssemblyInfoInputs.cache
+D:\rabbitmq-monitoring\src\mydir\Consumers\AUS\obj\Debug\net7.0\Consumer.AssemblyInfo.cs
+D:\rabbitmq-monitoring\src\mydir\Consumers\AUS\obj\Debug\net7.0\Consumer.csproj.CoreCompileInputs.cache
+D:\rabbitmq-monitoring\src\mydir\Consumers\AUS\obj\Debug\net7.0\Consumer.csproj.CopyComplete
+D:\rabbitmq-monitoring\src\mydir\Consumers\AUS\obj\Debug\net7.0\Consumer.dll
+D:\rabbitmq-monitoring\src\mydir\Consumers\AUS\obj\Debug\net7.0\refint\Consumer.dll
+D:\rabbitmq-monitoring\src\mydir\Consumers\AUS\obj\Debug\net7.0\Consumer.pdb
+D:\rabbitmq-monitoring\src\mydir\Consumers\AUS\obj\Debug\net7.0\Consumer.genruntimeconfig.cache
+D:\rabbitmq-monitoring\src\mydir\Consumers\AUS\obj\Debug\net7.0\ref\Consumer.dll
+>>>>>>> 559ca9c8f336610fb938c623d0be310103783222

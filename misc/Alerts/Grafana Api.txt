@@ -1,0 +1,37 @@
+https://docs.huihoo.com/grafana/2.6/reference/http_api/index.html#update-an-existing-data-source - examples
+
+https://grafana.com/docs/grafana/latest/alerting/set-up/provision-alerting-resources/ - options to approach
+
+https://grafana.com/docs/grafana/latest/alerting/set-up/provision-alerting-resources/file-provisioning/
+
+groups: A list of rule groups to import or update.
+
+orgId: The ID of the organization that the rule group belongs to.
+
+name: The name of the rule group.
+
+folder: The name of the folder where the rule group will be stored.
+
+interval: The interval at which the rule group should be evaluated.
+
+rules: A list of rules that are part of the rule group.
+
+uid: The unique identifier for the rule.
+
+title: The title of the rule that will be displayed in the UI.
+
+condition: The query to be used for the condition.
+
+data: A list of query objects that should be executed on each evaluation.
+
+dashboardUid: The UID of the dashboard that the alert rule should be linked to.
+
+panelId: The ID of the panel that the alert rule should be linked to.
+
+noDataState: The state the alert rule will have when no data is returned.
+
+for: The duration for which the alert should fire before alerting.
+
+annotations: A map of strings to pass around any data.
+
+labels: A map of strings that can be used to filter and route alerts.

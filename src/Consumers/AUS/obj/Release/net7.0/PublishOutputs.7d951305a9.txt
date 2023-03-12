@@ -1,0 +1,6 @@
+C:\Users\IBI\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\published\Consumer.exe
+C:\Users\IBI\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\published\Consumer.dll
+C:\Users\IBI\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\published\Consumer.deps.json
+C:\Users\IBI\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\published\Consumer.runtimeconfig.json
+C:\Users\IBI\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\published\Consumer.pdb
+C:\Users\IBI\.ssh\rabbitmq-monitoring\src\mydir\Consumers\AUS\published\RabbitMQ.Client.dll
